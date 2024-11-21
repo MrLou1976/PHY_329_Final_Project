@@ -1,8 +1,8 @@
 # PHY_329_Final_Project
 
-Tokomak Fusion Reactor Optimization
+Tokamak Fusion Reactor Optimization
 
-We will optimize the number of magnets that need to be turned on to achieve a specific energy field within the tokamak for fusion reactors.
+We will optimize the number of magnets that must be turned on to achieve a specific energy field within the tokamak for fusion reactors.
 
 
 Please refer to the **Useful Information** directory for resources.
