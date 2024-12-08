@@ -12,7 +12,7 @@ The tokamak is one of the more popular and efficient structures used in modern n
 
 In order to accomplish this goal, we need to define a reward function to use in our RL model to encourage the plasma to take on a more favorable configuration, such as those outlined by the TCV experiments. 
 
-The original experiments were much more sophisticated than our implementation hopes to be, as we plan to focus only on optimizing plasma position and plasma current, whereas the original experiments also focused on results such as error, shape, and growth rate.
+The original experiments were much more sophisticated than our implementation hopes to be, as we plan to primarily focus on optimizing plasma position and plasma current, whereas the original experiments also gathered information regarding root-mean-square error, shape, and growth rate.
 
 # Installation & Example Usage
 
