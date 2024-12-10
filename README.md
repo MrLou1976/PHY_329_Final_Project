@@ -16,5 +16,5 @@ The original experiments were much more sophisticated than our implementation ho
 
 # Installation & Example Usage
 
-
+For instillation you'll want to make sure you're in a conda environment and install the packages in the !pip list cell within the python project file.
 
