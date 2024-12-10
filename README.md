@@ -16,5 +16,11 @@ The original experiments were much more sophisticated than our implementation ho
 
 # Installation & Example Usage
 
-For instillation you'll want to make sure you're in a conda environment and install the packages in the !pip list cell within the python project file.
+First, you'll need to install all of the dependencies listed in [requirements.txt](https://github.com/MrLou1976/PHY_329_Final_Project/blob/main/requirements.txt):
+
+```
+pip install -r requirements.txt
+```
+
+
 
