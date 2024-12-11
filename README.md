@@ -25,5 +25,5 @@ pip install -r requirements.txt
 ```
 
 Then you will open the main file: Control_policy.py and input your target current and target toroidal magnet field (torflux)values or stay with the default ones provided.
-The Output will include the final current and torflux along with their respective errors from the targets.
+The Output will include the final current and torflux along with their respective errors from the targets and a plot of a cross-section of the freegs machine using the final values.
 
