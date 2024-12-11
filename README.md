@@ -24,5 +24,6 @@ First, you'll need to install all of the dependencies listed in [requirements.tx
 pip install -r requirements.txt
 ```
 
-
+Then you will open the main file: Control_policy.py and input your target current and target toroidal magnet field (torflux)values or stay with the default ones provided.
+The Output will include the final current and torflux along with their respective errors from the targets.
 
