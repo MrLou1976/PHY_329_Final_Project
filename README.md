@@ -12,11 +12,13 @@ The tokamak is one of the more popular and efficient structures used in modern n
 
 In order to accomplish this goal, we need to define a reward function to use in our RL model to encourage the plasma to take on a more favorable configuration, such as those outlined by the TCV experiments. 
 
-The original experiments were much more sophisticated than our implementation hopes to be, as we plan to primarily focus on optimizing plasma current and toroidal flux, whereas the original experiments also gathered information regarding root-mean-square error, shape, and growth rate.
+The original experiments were much more sophisticated than our implementation hopes to be, as we plan to primarily focus on optimizing plasma current, whereas the original experiments also gathered information regarding position, shape, and growth rate.
 
 # Installation & Example Usage
 
 First, you'll need to install all of the dependencies listed in [requirements.txt](https://github.com/MrLou1976/PHY_329_Final_Project/blob/main/requirements.txt):
+
+*(Certain dependencies may interfere with each other. Use Python 3.10.11 to get around this if necessary)*
 
 ```
 pip install -r requirements.txt
