@@ -26,5 +26,5 @@ pip install -r requirements.txt
 
 Then, open the main file ```control_policy.py``` and input your target current values or use the default ones provided.
 
-The output will include the final current along with its error from the target and a plot of a cross-section of the freegs machine using the final values.
+The output will include the final current along with its error from the target current.
 
