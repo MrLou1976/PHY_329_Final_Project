@@ -8,9 +8,9 @@ Please refer to the **Useful Information** directory for resources. We are prima
 
 # Introduction
 
-The tokamak is one of the more popular and efficient structures used in modern nuclear fusion reactors. Our goal is to train a PyTorch RL model with the source data gathered in the TCV experiments, then use the FreeGS tokamak simulator to test and display our results.
+The tokamak is one of the more popular and efficient structures used in modern nuclear fusion reactors. Our goal is to train a PyTorch RL model using a reward function, then use the FreeGS tokamak simulator to test and display our results.
 
-In order to accomplish this goal, we need to define a reward function to use in our RL model to encourage the plasma to take on a more favorable configuration, such as those outlined by the TCV experiments. 
+In order to accomplish this goal, we need to define a reward function to use in our RL model to encourage the plasma to take on a more favorable configuration, such as those outlined by the TCV experiments. In order to define this reward function, we quantified the error between target values and current values in order to motivate the model away from undesirable results.
 
 The original experiments were much more sophisticated than our implementation hopes to be, as we plan to primarily focus on optimizing plasma current, whereas the original experiments also gathered information regarding position, shape, and growth rate.
 
