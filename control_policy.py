@@ -45,6 +45,8 @@ def main():
 
     print(f"Current error: {current_error}")
 
+    print("Coil Currents: ")
+    env.printCurrents()
 
     # Check if the observed results are within acceptable tolerance
     current_tolerance = 1e-4  
